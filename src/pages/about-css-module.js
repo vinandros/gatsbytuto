@@ -3,7 +3,7 @@ import Container from '../components/Container';
 import User from '../components/User'
 
 
-export default function About(){
+export default function AboutCSS(){
     return (
         <Container>
             <h1>About CSS Modules</h1>
