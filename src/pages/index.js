@@ -2,10 +2,12 @@ import React from "react"
 import Header from "../components/Header"
 import User from "../components/User"
 import Layout from "../components/Layout"
+import SEO from "../components/seo"
 
 export default function Home() {
   return (
     <Layout>
+       <SEO title={"Pandas"} description={"eating things"} />
       <h1>Amazing Pandas Eating Things</h1>
       <div>
         <img
